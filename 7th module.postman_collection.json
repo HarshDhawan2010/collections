@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "435b8f71-50c7-4d3e-9d58-a35013613a6a",
+		"name": "7th module",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/hello?fName=Harsh",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"hello"
+					],
+					"query": [
+						{
+							"key": "fName",
+							"value": "Harsh"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

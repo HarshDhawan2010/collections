@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "eec5ae12-7f68-4490-9bbd-bf24983069e7",
+		"name": "10th module",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "error",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/api/flights",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"flights"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ERROR HANDLED",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/api/flights?airline=american&code=SFO",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"flights"
+					],
+					"query": [
+						{
+							"key": "airline",
+							"value": "american"
+						},
+						{
+							"key": "code",
+							"value": "SFO"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

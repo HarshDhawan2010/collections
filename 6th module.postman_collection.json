@@ -1,0 +1,17 @@
+{
+	"info": {
+		"_postman_id": "d521cff3-2f5c-4979-b75a-15afafdec7ba",
+		"name": "6th module",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

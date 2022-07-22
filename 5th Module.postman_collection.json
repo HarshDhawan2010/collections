@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "240faf49-1960-40c6-9409-641c0f2d6382",
+		"name": "5th Module",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Proxy Hit",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "client_id",
+						"value": "d7a06543839d4ca98b9692be8ba9e2a7",
+						"type": "default"
+					},
+					{
+						"key": "client_secret",
+						"value": "Bca1d841C38b4cdc9b5eB58cc303B8bb",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"ID\": 23,\r\n        \"code\": \"rree0001\",\r\n        \"price\": 541,\r\n        \"departureDate\": \"2016-01-20T00:00:00\",\r\n        \"origin\": \"MUA\",\r\n        \"destination\": \"LAX\",\r\n        \"emptySeats\": 0,\r\n        \"plane\": {\r\n            \"type\": \"Boeing 787\",\r\n            \"totalSeats\": 200\r\n        }\r\n    }\r\n    ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://training200-american-ws-proxy.us-e2.cloudhub.io/flights",
+					"protocol": "http",
+					"host": [
+						"training200-american-ws-proxy",
+						"us-e2",
+						"cloudhub",
+						"io"
+					],
+					"path": [
+						"flights"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "proxy",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "client_id",
+						"value": "d7a06543839d4ca98b9692be8ba9e2a7",
+						"type": "default"
+					},
+					{
+						"key": "client_secret",
+						"value": "Bca1d841C38b4cdc9b5eB58cc303B8bb",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "training200-american-ws-proxy.us-e2.cloudhub.io/flights",
+					"host": [
+						"training200-american-ws-proxy",
+						"us-e2",
+						"cloudhub",
+						"io"
+					],
+					"path": [
+						"flights"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

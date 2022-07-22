@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "205d4a8e-b9ea-43c6-8c63-18b4634f7bff",
+		"name": "8th module",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "american",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/american",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"american"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "united",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/united",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"united"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delta",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/delta",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"delta"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
